@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color><!-- Primary color (60%) - background -->
+    <color name="colorSecondary">#9C27B0</color><!-- Secondary color (30%) -->
+    <color name="purple">#C17CE0</color><!-- Accent color (10%) -->
+
+
+    <!-- Other colors -->
+    <color name="white">#F6F6F6</color>
+    <color name="gray">#838383</color>
+    <color name="error_red">#F44336</color>
+    <color name="success_green">#4CAF50</color>
+    <color name="light_green">#E8F5E8</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="red">#BF1313</color>
+    <color name="black">#000000</color>
+    <color name="lightPurple">#D3B3DE</color>
+    <color name="green">#4CAF50</color>
+    <color name="blue">#2196F3</color>
+
+</resources>

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Habit Log</string>
+    <string name="intake_amount_format">%1$d ml</string>
+    <string name="goal_label_format">%1$.1f L / %2$.1f L</string>
+    <string name="intake_empty_state">No water intake logged yet. Tap a button above to add your first entry.</string>
+    <string name="hydration_title">Hydration</string>
+    <string name="daily_goal_label">Daily Goal</string>
+    <string name="add_intake_label">Add Intake</string>
+    <string name="intake_add_250">+250 ml</string>
+    <string name="intake_add_500">+500 ml</string>
+    <string name="today_intake_label">Today\'s Intake</string>
+    <string name="reminder_section_title">Hydration Reminders</string>
+    <string name="reminder_every_30">Every 2 min</string>
+    <string name="reminder_every_60">Every 1 hour</string>
+    <string name="reminder_every_120">Every 2 hours</string>
+    <string name="reminder_off">Turn off reminders</string>
+    <string name="reminder_set_toast">Reminder set for every %1$d minutes.</string>
+    <string name="reminder_cancelled_toast">Hydration reminder turned off.</string>
+    <string name="reminder_permission_denied_toast">Notification permission denied. Reminders not scheduled.</string>
+    <string name="reminder_exact_alarm_needed_toast">Enable "Schedule exact alarms" in system settings to use hydration reminders.</string>
+    <string name="hydration_reminder_title">Time to drink water</string>
+    <string name="hydration_reminder_body">Stay hydrated! Log a new intake now.</string>
+    <string name="reminder_channel_name">Hydration reminders</string>
+    <string name="reminder_channel_description">Periodic notifications prompting you to drink water.</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="LogIn">Log In </string>
+    <string name="SignUp">Sign Up</string>
+    <string name="Email">Email </string>
+    <string name="Pwd">Password </string>
+    <string name="RememberMe">Remember me </string>
+    <string name="ForgotPassword">Forgot Password?</string>
+    <string name="OrLoginWith">Or log in with: </string>
+    <string name="PasswordConfirmation">Password Confirmation</string>
+
+    <string name="Name">Name</string>
+    <string name="OrSignUpWith">Or sign up with:</string>
+    <string name="title1">Your Day, Your Way</string>
+    <string name="desc1">Choose habits that match your lifestyle — from morning meditation to evening reflection.</string>
+    <string name="next">Next</string>
+    <string name="title2">Visualize Your Progress</string>
+    <string name="desc2">Your daily check-ins turn into beautiful streaks and achievement badges.</string>
+    <string name="title3">Get Gentle Reminders</string>
+    <string name="desc3">Smart reminders keep you motivated without overwhelming you.</string>
+
+    <string name="logoText">HabitLog</string>
+    <string name="logoDes">HabitLog</string>
+    <string name="create">Create New Habit Goal</string>
+    <string name="close">Close</string>
+    <string name="goal">Your Goal</string>
+    <string name="enterGoal">Enter your goal</string>
+    <string name="habit">Habit Name</string>
+    <string name="enterHabit">Enter habit name</string>
+    <string name="Period">Period</string>
+    <string name="Type">Habit Type</string>
+    <string name="CreateNew">Create New</string>
+    <string name="Msg">Are you sure want to delete?</string>
+    <string name="Delete">Delete</string>
+    <string name="Cancel">Cancel</string>
+    <string name="EditGoal">Edit Goal</string>
+    <string name="GoalName">Goal Name</string>
+    <string name="Update">Update</string>
+    <string name="EditHabitGoal">Edit Habit Goal</string>
+    <string name="Done">Done !</string>
+    <string name="desc">New Habit Goal has added\nLet\'s do the best to achieve your goal!</string>
+    <string name="OK">OK</string>
+    <string name="Edit">Edit</string>
+
+    <string name="LogOut">LogOut</string>
+    <string name="Display">Are you sure you want to logout?</string>
+</resources>

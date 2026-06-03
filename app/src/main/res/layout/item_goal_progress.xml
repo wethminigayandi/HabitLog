@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:layout_marginBottom="12dp">
+
+    <!-- Progress Circle Icon -->
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp">
+
+        <View
+            android:id="@+id/progress_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circular_progress_achieved"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/tv_percentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100%"
+            android:textColor="@color/purple"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+    <!-- Goal Details -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_goal_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Journaling everyday"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tv_goal_target"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7 from 7 days target"
+            android:textColor="@color/gray"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <!-- Status Badge -->
+    <TextView
+        android:id="@+id/tv_status_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Achieved"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:background="@drawable/achieved_badge_background"
+        android:textColor="@color/purple" />
+
+</LinearLayout>
